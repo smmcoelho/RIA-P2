@@ -5,13 +5,13 @@
 l = [1, 3, 3, 5, 9, 7]
 print(f"A variable do tipo {type(l)} tem os valores: {l} ")
 
-# set
-s = (1, 3, 3, 5, 9, 7)
-print(f"A variable do tipo {type(s)} tem os valores: {s} ")
-
 # tuple
-t = {1, 3, 3, 5, 9, 7}
+t = (1, 3, 3, 5, 9, 7) # imotavel
 print(f"A variable do tipo {type(t)} tem os valores: {t} ")
+
+# set
+s = {1, 3, 3, 5, 9, 7} # nao permite duplicadose  ordenado
+print(f"A variable do tipo {type(s)} tem os valores: {s} ")
 
 # dic (dictionary)
 d = {1: "Name", 2: "Surname"}
