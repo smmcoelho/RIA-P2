@@ -10,7 +10,7 @@ t = (1, 3, 3, 5, 9, 7) # imotavel
 print(f"A variable do tipo {type(t)} tem os valores: {t} ")
 
 # set
-s = {1, 3, 3, 5, 9, 7} # nao permite duplicadose  ordenado
+s = {1, 3, 3, 5, 9, 7} # ordenado e nao permite duplicados
 print(f"A variable do tipo {type(s)} tem os valores: {s} ")
 
 # dic (dictionary)
