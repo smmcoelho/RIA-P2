@@ -23,6 +23,7 @@ def soma(a: int, b: float) -> float:
 if __name__ == "__main__":
     fazer()
     algo("ola")
+    algo(3) # funciona mas o IDE mostra um warning
     algomais(1)
     algomais(3.3)
     algomais('sim')
