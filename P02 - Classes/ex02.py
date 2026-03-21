@@ -6,7 +6,7 @@
 # 6. Move a class Cao para um ficheiro chamado cao.py. Dica faz import
 # 7. Adiciona uma variavel cor para atribuir a cor do cao e implementa o metodo cor
 # 8. Adiciona a variavel raça e os respectivos metodos
-# 9. Cria um metodo que altere o numero de pernas (minimo 1 e maximo 4)
+# 9. Cria um metodo que altere o numero de pernas (minimo 1 e maximo 4). Dica usa excepcoes ou um booleano para retornar o sucesso da accao)
 
 class Cao:
     def __init__(self):
