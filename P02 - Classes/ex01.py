@@ -9,7 +9,7 @@ class Cao:
         pass
     
     def fala(self):
-        print("Ao ao")
+        print("Au au")
     
 
 # main 
