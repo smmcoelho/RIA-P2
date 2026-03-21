@@ -1,10 +1,12 @@
 # 1. Faz com que o nome e o numero de pernas sejam passados ao construtor
-# 2. Cria o metodo respode que imprime "Ao ao"
-# 3. Cria o metodo buscar que imprime o que foi passado por parametro (Ex.O cao foi buscar a bola)
-# 4. Move as funcoes cao e falar para um ficheiro chamado cao.py. Dica faz import
-# 5. Adiciona uma variavel cor para atribuir a cor do cao e implementa o metodo cor
-# 6. Adiciona a variavel raça e os respectivos metodos
-# 7. Cria um metodo que altere o numero de pernas (minimo 1 e maximo 4)
+# 2. Instancia outro cao na main
+# 3. Adiciona o metodo print que deve imprimir as 2 mensagens da main (e remove os prints chamando este novo metodo)
+# 4. Cria o metodo respode que imprime "Ao ao"
+# 5. Cria o metodo buscar que imprime o que foi passado por parametro (Ex.O cao foi buscar a bola)
+# 6. Move a class Cao para um ficheiro chamado cao.py. Dica faz import
+# 7. Adiciona uma variavel cor para atribuir a cor do cao e implementa o metodo cor
+# 8. Adiciona a variavel raça e os respectivos metodos
+# 9. Cria um metodo que altere o numero de pernas (minimo 1 e maximo 4)
 
 class Cao:
     def __init__(self):
