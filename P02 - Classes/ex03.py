@@ -1,4 +1,4 @@
-# Faz o diagrama de classes da classe Aluno e implementa em python
+# Faz o diagrama de classes da classe Morada e implementa em python
 # Propriedades:
 #   Endereco
 #   Numero da porta
