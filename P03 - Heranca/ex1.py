@@ -1,3 +1,8 @@
+# 1. Adiciona o metodo correr na class Animal
+# 2. Adiciona na main c.correr()
+# 3. Adiciona o metodo correr na class Cao. Observa o resultado
+# 4. Adiciona o metodo correr na class Gato e na main g.correr(). Observa o resultado
+# 5. Adiciona a funcao generica fazer_animal_correr e adiciona na main
 
 
 class Animal:
@@ -19,9 +24,14 @@ class Gato(Animal):
 def fazer_animal_falar(animal):
     animal.falar()
 
-# main 
+# main
 if __name__ == "__main__":
 
-    fazer_animal_falar(Cao())
+    c = Cao()
+    g = Gato()
 
-    fazer_animal_falar(Gato())
+    c.falar()
+    g.falar()
+
+    fazer_animal_falar(c)
+    fazer_animal_falar(g)
