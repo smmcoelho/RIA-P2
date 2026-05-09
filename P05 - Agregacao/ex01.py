@@ -1,7 +1,9 @@
-# 1. Crie a classe Gato
-# 2. crie uma instancia aa classe Gato na main
-# 3. faça o dono adotar o gato
-# 4. todos os animais devem falar no final
+# 1. Desenhe o diagrama de classes
+# 2. Crie a classe Gato
+# 3. crie uma instancia aa classe Gato na main
+# 4. faça o dono adotar o gato
+# 5. todos os animais devem falar no final
+# 6. Desenhe o novo diagrama de classes
 
 class Cao:
     def __init__(self, nome):
