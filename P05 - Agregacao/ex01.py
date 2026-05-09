@@ -1,8 +1,8 @@
 # 1. Desenhe o diagrama de classes
 # 2. Crie a classe Gato
-# 3. crie uma instancia aa classe Gato na main
-# 4. faça o dono adotar o gato
-# 5. todos os animais devem falar no final
+# 3. Crie uma instancia aa classe Gato na main
+# 4. Faça o dono adotar o gato
+# 5. Faça com que todos os animais falem no final
 # 6. Desenhe o novo diagrama de classes
 
 class Cao:
