@@ -1,4 +1,4 @@
-# 1. Verifica o conteudo do ficheiro\
+# 1. Verifica o conteudo do ficheiro
 # 2. Depois de criado o ficheiro altera o codigo para ler o ficheiro e imprimir o conteudo
 # 3. Altera o codigo para alterar 'apple' por 'maça' e 'cherry' por 'cereja' e guardar no ficheiro
 # 4. Altera 'love' por 'chocolate'
