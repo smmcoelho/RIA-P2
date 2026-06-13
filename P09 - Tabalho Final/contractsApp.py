@@ -138,6 +138,7 @@ class CityContractFinderApp(QMainWindow):
         self.combo_district = QComboBox()
         self.combo_district.addItems(["Lisbon District", "Porto District", "Faro District"]) # TODO : adicionar distritos
         self.combo_district.setFixedWidth(160)
+        self.combo_district.currentTextChanged.connect(self.update_city)
 
         lbl_city = QLabel("City:")
         lbl_city.setStyleSheet("color: #a1a1aa;")
@@ -284,6 +285,12 @@ class CityContractFinderApp(QMainWindow):
 
                 self.table_widget.setItem(row_idx, col_idx, item)
 
+    def update_city(self):
+        # TODO update list of cities
+        print("Update Cities")
+        self.combo_city.clear()
+        # self.combo_city.addItems() # TODO add cities for this district
+        pass
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
